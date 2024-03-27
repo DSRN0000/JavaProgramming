@@ -23,7 +23,6 @@ public class Report1 {
 				System.out.println("맞았습니다.");
 				System.out.print("다시하시겠습니까(y/n)>>");
 				String contin = sc.next();
-				// charAt으로 하나 받아서 오기 그리고 맞는지 비교
 				if (contin.equals("y")) {
 					continue;
 				}else if (contin.equals("n")){
